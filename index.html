@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home Page</title>
+    <link rel="stylesheet" href="index.css">
+    <!--script src="index.js"></script--> <!--Enlazand archivo-->
+
 </head>
 <body>
-    hola
-    
+    <header class="seccion">
+        <h1>Home Page</h1>
+    </header>
+    <article class="seccion">
+        <div  id="controles">
+            <label>Tipo de algoritmo</label>
+            <select name="algoritmo" id="algoritmo">
+                <option value="opcion1">Opcion1</option>
+                <option value="opcion2">Opcion2</option>
+                <option value="opcion3">Opcion3</option>
+                <option value="opcion4">Opcion4</option>
+                <option value="opcion5">Opcion5</option>
+                <option value="opcion6">Opcion6</option>
+                <option value="opcion7">Opcion7</option>
+                <option value="opcion8">Opcion8</option>
+            </select>
+            
+            <label>Acción</label>
+            <select name="accion" id="accion">
+                <option value="cifrar">Cifrar</option>
+                <option value="descifrar">Descifrar</option>
+            </select>
+            <label>Clave</label></label>
+            <input type="text" name="clave" id="clave">
+        </div>
+       
+        <div id="principal">
+            <div id="editor" contenteditable></div>
+            <div id="resultado"></div>
+        </div>
+        
+    </article >
+    <footer class="seccion">
+        <p>&copy; 2020 BrendaBarrios.github.io</p>
+    </footer>
 </body>
 </html>
